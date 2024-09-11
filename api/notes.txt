@@ -1,0 +1,29 @@
+to avoid use of nodemon to restart server every time i can use console ninja for it 
+-> concole-ninja node --watch app.js
+
+
+
+authentication ::
+
+here we are use prisma for mongoDb and express api 
+--mogodb tables 
+-> 
+for password hashing i use "bcrypt" ################
+-->        const hashedPassword = await bcrypt.hash(password, 10);
+
+
+
+to make request with our api we need library { axios}  in client side 
+and api side we need to use  { cors }
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$44
+
+authorization :: 
+
+
+to store user information i need contex api in client side
+
+
+for image upload i use cloudinary 
+
+note: when ever you change in prisma schema the you have to do " npx prisma db push "
